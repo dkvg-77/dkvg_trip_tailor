@@ -70,3 +70,7 @@ my-app2/
 ├── .env                                  # Environment variables for sensitive data like API keys
 
 </pre>
+
+
+
+# THANK YOU 
