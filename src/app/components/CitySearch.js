@@ -71,7 +71,7 @@ export default function CitySearch() {
       <h1 className="text-5xl font-extrabold mb-6 text-gray-900 trip-tailor-heading">{heading}</h1>
       <h2 className="text-4xl font-bold mb-6 text-gray-900">Enter Your Dream Destination</h2>
       <p className="text-lg text-gray-700 mb-8">
-        Enter the name of the city you want to explore, and we'll help you create an unforgettable travel plan.
+        {`Enter the name of the city you want to explore, and we'll help you create an unforgettable travel plan.`}
       </p>
       <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
         <input
