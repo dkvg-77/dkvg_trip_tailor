@@ -1,4 +1,3 @@
-// src/app/login/page.js
 'use client';
 
 import React, { useState, useContext } from 'react';
@@ -24,7 +23,16 @@ const LoginPage = () => {
       loginUser(token);
       
       console.log("User connected");
-      router.back(); // Redirect to the previous page
+
+      // Retrieve the saved URL from localStorage and redirect
+      const redirectUrl = localStorage.getItem('redirectAfterLogin'); // Default to home if no URL is saved
+      localStorage.removeItem('redirectAfterLogin'); // Clear the saved URL after redirecting
+      if (redirectUrl) {
+        router.push(redirectUrl);
+      }
+      else {
+        router.back();
+      }
     } catch (error) {
       console.error('Login failed:', error);
       setError('Invalid username or password');

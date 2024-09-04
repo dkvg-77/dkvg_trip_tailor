@@ -53,7 +53,7 @@ const SavePlanButton = ({ uniqueId }) => {
 
   if (!user) {
     return (
-      <button onClick={() => router.push('/login')} className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+      <button onClick={() => { localStorage.setItem('redirectAfterLogin', window.location.href); router.push('/login') }} className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
         Login and save this tour-plan
       </button>
     );
