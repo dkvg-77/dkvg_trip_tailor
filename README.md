@@ -8,8 +8,6 @@
 
 ->  **Presentation Link** ->  https://docs.google.com/presentation/d/1BuXqDrg_wExxuQjG8FhLPC1vxOZl9qnTIQhon7NgDc8/edit?usp=drive_link    
 
--> **Video Link** -> https://drive.google.com/file/d/1hUfFxE0Dt_rrQmOsOso9GFXFG59XB7Z4/view?usp=drive_link       
-
 -> **Resume Link** -> https://drive.google.com/file/d/1SJgcIGtXwE-Z62BYiSDs2vOVlVpt1JFK/view?usp=sharing  
 
 
